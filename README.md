@@ -1,23 +1,23 @@
-# Flet app
+#Flet aplicativo
 
-Flet app using Flet extension.
+Aplicativo Flet usando extensão Flet.
 
-To run the app:
+Para executar o aplicativo:
 
-1. Install dependencies from pyproject.toml:
-
-```
-poetry install
-```
-
-2. Build app:
+1. Instale dependências de pyproject.toml:
 
 ```
-poetry run flet build macos -v
+instalação de poesia
 ```
 
-3. Run app:
+2. Crie um aplicativo:
 
 ```
-poetry run flet run
+poesia executar flet construir macos -v
+```
+
+3. Execute o aplicativo:
+
+```
+poesia corre, corre, corre
 ```
