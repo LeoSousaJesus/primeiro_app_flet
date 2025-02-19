@@ -52,7 +52,7 @@ def main(page: ft.Page):
     page.window.max_width = 600
     page.window.min_width = 600
 
-    page.window.resizable = False
+    page.window.resizable = False #deixando em false vc não permite redimencionamento
 
     def janela_evento(e):
         match e.data:
