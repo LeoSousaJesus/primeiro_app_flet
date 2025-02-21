@@ -68,7 +68,10 @@ def main(page: ft.Page):
             page.add(ft.Text(f"Olá {nome}!"))
 
     txt_nome = ft.TextField(label="Seu nome?")
-    nova_tarefa=ft.TextField(hint_text="O que você deseja adicionar?", width=300)
+    nova_tarefa=ft.TextField(label="O que você deseja adicionar?", width=300)
+
+    #label serve para subir o texto para ser substituido mas se manter visivel
+    #hint_text serve para deixar o texto na caixa para ser substituido 
 
     page.add(ft.Row(
         [
@@ -93,8 +96,8 @@ def main(page: ft.Page):
         on_click=clicar,
         disabled= True,
 
-        bgcolor= ft.colors.ORANGE,
-        color= ft.colors.GREEN_600
+        bgcolor= ft.colors.GREEN,
+        color= ft.colors.BLACK
     )
     cor_dropdown= ft.Dropdown(
         width=200,
